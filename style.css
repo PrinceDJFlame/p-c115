@@ -1,0 +1,22 @@
+h2{
+    font-size: 25px !important;
+}
+
+btn-info:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 100px 150px 200px goldenrod;}
+    to{box-shadow: 100px 150px 200px lime;}
+}
+
+body{
+    background-image: url("Avengers\ Endgame.jpg");
+}
